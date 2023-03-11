@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyQuiz</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+</head>
+<body>
+
+    <main>
+        <section class="quiz">
+          <div class="heading">
+            <p class="title">Quiz Master</p>
+            <p class="subtitle">Daily Quiz To Test Your GK </p>
+          </div>
+          <div class="result hide">
+             <p></p>
+            <p class="reload">
+                <button onclick="document.location.reload(true)">Try Again?</button>
+            </p>
+          </div>
+           <form class="quiz-form">
+              <div class="question">
+                <p>1.What is the smallest planet in our solar system?</p>
+                <div class="option">
+                    <input type="radio" name="q1" value="Earth" checked>
+                    <label for="">Earth</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q1" value="Mercury" >
+                    <label for="">Mercury</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q1" value="Jupiter" >
+                    <label for="">Jupiter</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q1" value="Venus" >
+                    <label for="">Venus</label>
+                </div>
+              </div>
+              <div class="question">
+                <p>2.Which country is both an island and a continent?</p>
+                <div class="option">
+                    <input type="radio" name="q2" value="Australia" checked>
+                    <label for="">Australia</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q2" value="Russia">
+                    <label for="">Russia</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q2" value="Antartica">
+                    <label for="">Antartica</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q2" value="Island">
+                    <label for="">Island</label>
+                </div>
+              </div>
+              <div class="question">
+                <p>3.Who is the author of the Harry Potter book series?</p>
+                <div class="option">
+                    <input type="radio" name="q3" value="Arundhati Roy" checked>
+                    <label for="">Arundhati Roy</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q3" value="Willam Shakespeare">
+                    <label for="">Willam Shakespeare</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q3" value="J K Rowling">
+                    <label for="">J K Rowling</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q3" value="Chetan Bhagat">
+                    <label for="">Chetan Bhagat</label>
+                </div>
+              </div>
+              <div class="question">
+                <p>4.What is the world's largest desert by area?</p>
+                <div class="option">
+                    <input type="radio" name="q4" value="Rajastan" checked>
+                    <label for="">Rajastan</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q4" value="Sahara Desert">
+                    <label for="">Sahara Desert</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q4" value="South Africa">
+                    <label for="">South Africa</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q4" value="Irealand">
+                    <label for="">Irealand</label>
+                </div>
+              </div>
+              <div class="question">
+                <p>5.Which planet in our solar system is known as the "Red Planet"?</p>
+                <div class="option">
+                    <input type="radio" name="q5" value="Mars" checked>
+                    <label for="">Mars</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q5" value="Jupiter">
+                    <label for="">Jupiter</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q5" value="Earth">
+                    <label for="">Earth</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q5" value="Venus">
+                    <label for="">Venus</label>
+                </div>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Submit">
+              </div>
+           </form>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
